@@ -1,0 +1,201 @@
+@font-face {
+  font-family: fac;
+  src: url(./fonts/Roboto/Roboto-Regular.ttf);
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: fac;
+}
+h2 {
+  text-align: center;
+}
+.header {
+  /* margin:100px auto; */
+  width: 100%;
+  /* box-sizing: border-box; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  height: 90px;
+  /* background-color: aliceblue; */
+  /* height:90px; */
+  /* border:1px solid red; */
+}
+.heading {
+  /* border:1px solid red; */
+  /* margin:100px auto; */
+  width: 95%;
+  /* box-sizing: border-box; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* flex-wrap: wrap; */
+}
+h1 {
+  margin-left: 30px;
+}
+.main {
+  /* border:1px solid red; */
+  /* background: red; */
+  margin: 60px auto;
+  width: 100%;
+  /* height:500px; */
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  /* padding:10px; */
+  width: 350px;
+  height: 540px;
+  border: 1px solid lightgray;
+  margin: 10px;
+  border-radius: 10px;
+  /* line-height: 20px; */
+  margin-top: 50px;
+}
+.card img {
+  width: 350px;
+  height: 230px;
+  border-radius: 10px;
+  border: 0.5px solid lightgray;
+  margin: -10px auto;
+}
+.sourceName {
+  /* border:1px solid red; */
+  text-indent: 10px;
+  /* margin:6px; */
+}
+.author {
+  /* border:1px solid red; */
+  margin: 6px;
+}
+.title {
+  /* border:1p
+    .an{x solid red; */
+  /* margin:6px; */
+  /* border:1px solid red; */
+  /* text-indent: 20px; */
+  margin-top: 60px;
+  margin: 10px;
+}
+.an a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.description {
+  /* border:1px solid red; */
+  /* text-indent: 10px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  /* margin:6px; */
+}
+.content {
+  /* border:1px solid red; */
+  /* text-indent: 20px; */
+
+  /* margin:6px;    */
+}
+.publishdeAt {
+  /* border:1px solid red; */
+  /* text-indent: 20px; */
+  margin-top: 10px;
+
+  /* margin:6px;  */
+}
+.an {
+  margin-top: 30px;
+  /* border:1px solid red; */
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin: 6px;
+  border-radius: 6px;
+  background-color: #007bff;
+
+  /* float:right; */
+}
+span {
+  font-size: 20px;
+  /* padding: 10px; */
+}
+i {
+  color: red;
+  font-size: 27px;
+}
+#btns {
+  width: 100%;
+  display: flex;
+}
+#openBtn {
+  margin-top: 30px;
+  /* border:1px solid red; */
+  width: 250px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin: 6px;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  border: none;
+}
+#tab0 {
+  display: none;
+}
+#tab1 {
+  display: none;
+}
+#tab2 {
+  display: none;
+}
+#tab3 {
+  display: none;
+}
+#tab4 {
+  display: none;
+}
+#closeBtn {
+  position: absolute;
+  top: 140px;
+  right: 20px;
+}
+@media screen and (max-width: 768px) {
+  #closeBtn {
+    position: absolute;
+    top: 100px;
+    right: 20px;
+  }
+}
+@media screen and (max-width: 425px) {
+  #closeBtn {
+    position: absolute;
+    top: 180px;
+    right: 20px;
+  }
+}
+@media screen and (max-width: 320px) {
+  #closeBtn {
+    position: absolute;
+    top: 200px;
+    right: 20px;
+  }
+  .card img {
+    width: 295px;
+  }
+}
